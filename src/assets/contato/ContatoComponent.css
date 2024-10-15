@@ -1,0 +1,137 @@
+
+.contact-section {
+    background: linear-gradient(90deg, #FF3131 0%, #FF914D 100%);
+    padding: 50px 0;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato{
+    padding: 20px;
+    
+
+  }
+  .contato h1, .contato h3 {
+    display: inline-block;
+    padding: 10px;
+  
+  }
+
+  .full-width-background{
+       width: 100%;
+       background-color: #C1000F !important;
+      color: white; /* Cor do texto */
+      padding: 20px 0; /* Espaçamento interno superior e inferior */
+      text-align: center; /* Centraliza o texto */
+      border-radius: 19px;
+}
+
+  .contato h3 {
+    margin-left: 200px;
+    text-align: left;
+  }
+
+  .contatolegenda{
+    padding-bottom: 20px;
+  }
+  .contatolegenda h2{
+    color: black !important;
+  }
+
+  .contact-info {
+    background: linear-gradient(90deg, #FF3131 0%, #FF914D 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    display:inline;
+
+  }
+
+.contact-info img{
+    max-width: 100px;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 767.98px){
+  .contato h3, .contato h1 {
+      margin-left: 0;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  
+    .contact-info {
+      display: block; /* ou flex com flex-direction column para alinhar verticalmente */
+      text-align: center;
+      padding: 10px;
+  }
+  .contato h1,
+  .contato h3,
+  .contatolegenda h2 {
+      font-size: small; /* Ajuste o tamanho da fonte conforme necessário */
+      padding: 5px;
+      text-align: center;
+  }
+  
+  .contact-info h4 {
+      font-size: small; /* Ajuste o tamanho da fonte conforme necessário */
+      padding: 2px;
+      text-align: center;
+  }
+  
+}
+
+
+
+@media (min-width: 575px){
+  .contato h3, .contato h1 {
+    margin-left: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.contact-info {
+    display: block; /* ou flex com flex-direction column para alinhar verticalmente */
+    text-align: center;
+    padding: 10px;
+}
+}
+@media (max-width: 474px) {
+  .contact-section,
+  .contato,
+  .full-width-background,
+  .contact-info {
+      padding: 5px;
+      flex-direction: column;
+      width: 95%;
+      margin-left: 5px;
+  }
+
+  .contato h1,
+  .contato h3,
+  .contatolegenda h2 {
+      font-size: smaller; /* Ajuste o tamanho da fonte conforme necessário */
+      padding: 5px;
+      text-align: center;
+      width: 80%;
+      margin: auto;
+  }
+
+  .contact-info {
+    width: 80%;
+    display: block; /* ou flex com flex-direction column para alinhar verticalmente */
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+  .contact-info h4 {
+      font-size: smaller; /* Ajuste o tamanho da fonte conforme necessário */
+      padding: 2px;
+      text-align: center;
+  }
+
+}

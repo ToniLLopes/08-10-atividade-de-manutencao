@@ -1,0 +1,39 @@
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .imagem {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .nome {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .tamanho, .preco, .observacoes {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  .observacoes {
+    color: #555;
+  }
+  
+  .product-card {
+    background-color: #F0B872  !important;
+    /* height: 100% !important;  aqui está ficando estranho,porque consome toda margem, arrumar dps*/
+  }

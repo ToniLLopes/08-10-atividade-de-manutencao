@@ -1,0 +1,120 @@
+.carrinho {
+    background-color: #4C6B33;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .carrinho-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .carrinho-title {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .adorno-sabor {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .total-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .total-price {
+    margin-left: 10px;
+  }
+  
+  .finalizar-button {
+    border-radius: 20px;
+    background: linear-gradient(to right, #FF3131, #FF914D);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .finalizar-button:hover {
+    opacity: 0.8;
+  }
+  
+  .carrinho-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    background-color: #4C6B33;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    width: calc(50% - 10px);
+    padding: 10px;
+    position: relative;
+  }
+  
+  .pizza-image-container {
+    width: 30%;
+    background-color: #C1000F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pizza-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .cart-item-details {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .item-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .item-size, .item-price {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .item-observations {
+    margin-top: 10px;
+  }
+  
+  .observations-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .remove-item-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .remove-item-button:hover {
+    opacity: 0.8;
+  }
+  

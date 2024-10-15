@@ -1,0 +1,121 @@
+/* Estilos básicos */
+.container-fluid.degrade {
+  position: relative;
+  background: linear-gradient(90deg, #FF3131 0%, #FF914D 100%);
+  padding: 0; /* Remover padding */
+}
+
+.banner-content {
+  font-family: 'Gotham', sans-serif;
+  color: #F8F0E2;
+  text-align: left; /* Alinhar o texto à esquerda */
+}
+
+.banner-content h1 {
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #F0B872 !important;
+  border-radius: 20px !important;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #d99b62 !important;
+}
+
+.happy-pizza {
+  height: auto;
+}
+
+.banner-background {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile (less than 576px) */
+@media (max-width: 575.98px) {
+  .banner-content h1 img {
+    max-width: 10% !important;
+  }
+
+  .banner-content h1 {
+    font-size: 1.5rem; /* Diminuir o tamanho da fonte para telas menores */
+  }
+
+  .banner-content p {
+    font-size: 0.875rem; /* Tamanho da fonte para parágrafos em telas menores */
+  }
+
+  .col-md-6 {
+    text-align: center; /* Centralizar o conteúdo em telas pequenas */
+  }
+
+  .row {
+    flex-direction: column; /* Colocar os elementos em coluna para telas pequenas */
+    align-items: center;
+  }
+
+  .btn-custom {
+    font-size: 0.875rem; /* Diminuir o tamanho do botão para telas menores */
+  }
+}
+
+/* Tablet (between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-content h1 img {
+    max-width: 15%;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem; /* Ajustar o tamanho da fonte para telas de tablet */
+  }
+
+  .banner-content p {
+    font-size: 1rem; /* Tamanho da fonte para parágrafos em telas de tablet */
+  }
+
+  .col-md-6 {
+    text-align: center; /* Centralizar o conteúdo em telas de tablet */
+  }
+
+  .row {
+    flex-direction: column; /* Colocar os elementos em coluna para telas de tablet */
+    align-items: center;
+  }
+
+  .btn-custom {
+    font-size: 1rem; /* Ajustar o tamanho do botão para telas de tablet */
+  }
+}
+
+/* Desktop (768px and above) */
+@media (min-width: 768px) {
+  .banner-background {
+    background-image: url('../../assets/banner/pizzaBannerComputador.png');
+  }
+
+  .banner-content {
+    text-align: left; /* Alinhar o texto à esquerda em telas grandes */
+  }
+
+  .banner-content h1 img {
+    max-width: 10%;
+  }
+
+  .banner-content h1 {
+    font-size: 4.5rem; /* Tamanho da fonte para telas grandes */
+  }
+
+  .banner-content p {
+    font-size: 1.3rem; /* Tamanho da fonte para parágrafos em telas grandes */
+  }
+
+  .btn-custom {
+    font-size: 1.25rem; /* Tamanho do botão para telas grandes */
+  }
+}

@@ -1,0 +1,78 @@
+.endereco{
+    display:inline-block;
+    align-items: center;
+    padding: 10px;
+}
+
+.mapa{
+    width: 550px;
+    height: 400px;
+}
+
+.enderecoText{
+    text-align: left;
+    padding: 30px;
+}
+
+.enderecoText h1{
+    padding: 20px;
+    
+}
+.enderecoText p{
+    color: white; 
+    padding: 20px;
+}
+
+.imagemPizzaria{
+   margin-top: 50px;
+    padding: 20px;
+    align-items: center;
+    width: 750px;
+    height: 600px;
+}
+
+
+@media (max-width: 1350px) {
+    .endereco {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa,
+    .imagemPizzaria {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .enderecoText h1,
+    .enderecoText p {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Estilos para telas menores */
+@media (min-width: 575px) and (max-width: 768px) {
+    .endereco {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa,
+    .imagemPizzaria {
+        width: 50%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .enderecoText h1,
+    .enderecoText p {
+        padding: 10px;
+    }
+}

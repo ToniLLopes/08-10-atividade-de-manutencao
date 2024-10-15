@@ -1,0 +1,128 @@
+/* TelaConfirmar.css */
+.modal-content {
+    background-color: #4C6B33;
+    border: none;
+    box-shadow: none;
+    border-radius: 16px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+    padding: 15px;
+}
+
+.modal-title {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.close-button {
+    color: #DC1D25;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+}
+
+.modal-body {
+    background-color: #4C6B33;
+    color: white;
+    padding: 0px 20px 20px 20px; /* Reduzindo o padding superior para 10px */
+}
+
+.form-check-label {
+    color: white;
+}
+
+.form-control-observations {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control-quantity {
+    border-radius: 20px;
+    width: 60px;
+    background-color: transparent; /* Tornando o fundo transparente */
+    border:none; /* Mantendo a borda visível */
+    color: white; /* Garantindo que o texto dentro do input seja visível */
+}
+
+
+.modal-footer {
+    justify-content: space-between;
+    border-top: none;
+    padding: 15px;
+}
+
+.button-secondary,
+.button-primary {
+    background: linear-gradient(to right, #FF3131, #FF914D);
+    border: none;
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 45%;
+    font-size: 1rem;
+}
+
+.button-secondary:focus,
+.button-primary:focus {
+    box-shadow: none;
+}
+
+.input-group-prepend .input-group-text {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.input-group-observations {
+    display: flex;
+    align-items: center;
+}
+
+.button-secondary:hover,
+.button-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+    .modal-dialog.modal-dialog-mobile {
+        margin: 10px;
+        width: 100%; /* Aumenta a largura do modal */
+        max-width: none; /* Permite que o modal ocupe toda a largura disponível */
+    }
+
+    .modal-content {
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .modal-header, .modal-body, .modal-footer {
+        padding: 10px;
+    }
+
+    .modal-title {
+        font-size: 1rem;
+    }
+
+    .close-button {
+        font-size: 1.5rem;
+    }
+
+    .form-control-observations, .form-control-quantity {
+        width: 100%;
+    }
+
+    .button-secondary, .button-primary {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

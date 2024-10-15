@@ -1,0 +1,22 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-muted {
+    color: #F8F0E2 !important;
+    font-family: 'Gotham', sans-serif;
+  }
+  
+  .display-5,
+  h1,
+  h2,
+  .lead {
+    color: #F8F0E2 !important;
+    font-family: 'Gotham', sans-serif;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
